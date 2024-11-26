@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <title>Publicar para WEB</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title-header">
+            Prova final da disciplina publicar para WEB
+        </h1>
+    </header>
+
+    <main>
+        <div class="questions" id="question-1">
+            <h2 class="title-questions">
+                1. O que é uma publicação web, quais os dois tipos de aplicações existentes e suas principais
+                diferenças.
+            </h2>
+            <p class="resp">
+                Publicar para WEB consiste em hospedar uma aplicação na WEB própriamente dita. Existem tanto publicações
+                de páginas estáticas que seriam página apenas com o lado do cliente(FrontEnd), já as páginas dinâmicas,
+                seriam páginas que contém o lado do servidor(BackEnd).
+            </p>
+        </div>
+
+        <div class="questions" id="question-2">
+            <h2 class="title-questions">
+                2. O que é um domínio e um DNS.
+            </h2>
+            <p class="resp">
+                As páginas WEB por padrão possuem endereços IP(internet protocol) que consiste em uma sequência de
+                números seguidos de ".". Para que as pessoas não tenham a necessidade de memorizar esses números, existe
+                os domínios de DNS, que nada mais é do que atribuir um nome mais simples de se memorizar para esse IP,
+                como por exemplo "youtube.com".
+            </p>
+        </div>
+
+        <div class="questions" id="question-3">
+            <h2 class="title-questions">
+                3. Explique o que é um servidor compartilhado e um servidor dedicado, evidenciando suas vantagens e
+                desvantagens.
+            </h2>
+            <p class="resp">
+            <h3>Compartilhado</h3>
+            Quando pagamos pela hospedagem de um servidor, estamos alugando um espaço físico com computadores para
+            armazenar e computar os dados e códigos do nosso site. Na hospedagem compartilhada um mesmo lugar físico, ou
+            seja, um mesmo servidor irá prover esse poder computacional para múltiplos sites.
+            <h3>Vantagens</h3>
+            <ul>
+                <li>Acessibilidade: Como o custo é dividido entre vários usuários, o custo do servidor acaba sendo menor
+                </li>
+                <li>Gerenciamento fácil: O provedor de servidores comparilhado normalmente disponibilizam um painel de
+                    controle para fazer o gerenciamento do seu site de forma mais fácil.</li>
+                <li>Manutenção simples: O provedor do servidor acaba cuidado de todo o suporte técnico do mesmo, como
+                    instalção dos software e atualizações do mesmo.</li>
+                <li>Flexibilidade: A maioria dos provedores de servidores compartilhado disponibilizam planos
+                    escolonáveis de acord com a medida que o seu site cresce.</li>
+            </ul>
+            <h3>Desvantagens</h3>
+            <ul>
+                <li>Recursos Limitados: Tanto o armazenamento, largura de banda e poder de processamento será limitado
+                    devido concentrar-se a múltiplos sites. Um pico de tráfego em outro site pode acabar afetando
+                    negativamente usuários do seu site.</li>
+                <li>Sem acesso ao root: Sendo o nível de acesso mais alto do servidor, o mesmo por ser compartilhado não
+                    possível obter, normalmente só se tem em servidores dedicados.</li>
+                <li>IP compartilhado: Por ser um endereço de IP compartilhado, não se pode acessar seu WebSite através
+                    do mesmo caso tenha problemas com seu domínio de DNS.</li>
+            </ul>
+            <h3>Dedicado</h3>
+            Consiste nada mais nada mesmo do que possuir um servidor inteiro dedicado ao seu site, o que te da um
+            controle total do servidor, sendo responsável pela instalação e atualização do softwares necessários. Por
+            ser um servidor totalmente dedicado a um site, acaba se tornando mais caro, porém não há problemas com
+            questão a recursos ou tráfegos de outros sites.
+            </p>
+        </div>
+
+        <div class="questions" id="question-4">
+            <h2 class="title-questions">
+                4. O que é um servidor web, explique os dois principais servidores. Como fazer o backup de um projeto de
+                forma compactada. Bem como restaurá-la. Utilize imagens para Ilustrar.
+            </h2>
+            <p class="resp">
+                Um Web Server é responsável por armazenar, processar e entregar dados do servidor para os navegadores.
+            </p>
+            <img src="./img/compactar-projeto.png" alt="" srcset="">
+        </div>
+
+        <div class="questions" id="question-5">
+            <h2 class="title-questions">
+                5. O que é um servidor de banco de dados, explique como fazer o backup e restaurar esse backup. Utilize
+                imagens para ilustrar. (Para facilitar utilize o arquivo em anexo)
+            </h2>
+            <p class="resp">
+                É um local físico utilizado para armazenar e gerenciar dados de forma estruturada.
+            </p>
+            <img src="./img/backup-banco.png" alt="" srcset="">
+        </div>
+
+        <div class="questions" id="question-6">
+            <h2 class="title-questions">
+                6. O que é um serviço ssh, e como ele permite acessar um servidor web para transferir arquivos de uma
+                máquina local e o servidor.
+            </h2>
+            <p class="resp">
+                O protocolo Secure Shell(SSH), é um método para enviar dados com segurança em uma rede não segura,
+                autenticando e criptografando conexões entre dispositivos.
+            </p>
+        </div>
+
+        <div class="questions" id="question-7">
+            <h2 class="title-questions">
+                7. Explique o que é um Linux e cite as principais distribuições usadas como servidor web.
+            </h2>
+            <p class="resp">
+                O Linux é um kernel de código aberto permitindo que várias distribuições de sistema operacional. Sendo
+                muito utilizado para servidores devido ao seu desempenho e custo, dentre elas as distribuições mais
+                usadas:
+            <ol>
+                <li>Ubuntu Server</li>
+                <li>Red Hat Enterprise Linux</li>
+                <li>OpenSUSE Leap</li>
+                <li>Debian</li>
+            </ol>
+            </p>
+        </div>
+
+        <div class="questions" id="question-8">
+            <h2 class="title-questions">
+                8. Explique alguns comando básicos do Linux.
+            </h2>
+            <p class="resp">
+            <ul>
+                <li>touch nome_do_arquivo -- para criar um arquivo.</li>
+                <li>mkdir nome_da_pasta -- para criar uma pasta.</li>
+                <li>cd nome_da_pasta -- para navegar entre as pastas.</li>
+                <li>cd ../ -- para voltar.</li>
+                <li>mv nome_do_arquivo -- move e renomeia um arquivo.</li>
+                <li>rm nome_do_arquivo -- remove um arquivo único</li>
+                <li>rm -r -- remove uma pasta e tudo que tem dentro dela.</li>
+                <li>sudo apt update -- Verifica se existe atualizações no repo do linux utilizado.
+                </li>
+                <li>sudo apt upgrade -- Faz as atualizações encontradas.</li>
+                <li>sudo adduser nmDoUsuario -- Adiciona um novo usuário.</li>
+                <li>sudo login nmDoUsuario -- Loga no usuário desejado.</li>
+                <li>useradd --help -- Caso não lembre como adicionar um novo usuário ( --help pode ser utilizados em
+                    outros comando para verificar como utiliza-los ).</li>
+                <li>sudo usermod -a -G grupos nmDoUsuario.</li>
+                <li>sudo apt install htop -- Instala a ferramenta htop para monitorar os recursos utilizados no
+                    servidor.</li>
+                <li>sudo apt install nomeDoPrograma -- Instala o programa desejado.</li>
+            </ul>
+            </p>
+        </div>
+
+        <div class="questions">
+            <h2>Fontes</h2>
+            <ul>
+                <li><a href="https://www.hostinger.com.br/tutoriais/web-server" target="_blank">WEB Server</a></li>
+                <li><a href="https://www.controle.net/faq/servidor-de-banco-de-dados#:~:text=Servidores%20de%20banco%20de%20dados%20s%C3%A3o%20aplica%C3%A7%C3%B5es%20ou%20equipamentos%20dentro,de%20uma%20estrutura%20cliente%2Dservidor." target="_blank"> Servidor de Banco de dados</a></li>
+                <li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-hospedagem-compartilhada?utm_campaign=Generic-Tutorials-DSA|NT:Se|LO:BR-t4&utm_medium=ppc&gad_source=1&gclid=CjwKCAiA3ZC6BhBaEiwAeqfvym2c8cA_6HHVEmzgpGv1L1R-47VtkgJfhu9DD4xZop2FvUfZL1NhlhoCAS8QAvD_BwE" target="_blank">Hospedagem compartilhada e dedicada</a></li>
+                <li><a href="https://www.cloudflare.com/pt-br/learning/access-management/what-is-ssh/#:~:text=O%20protocolo%20Secure%20Shell%20(SSH)%20%C3%A9%20um%20m%C3%A9todo%20para%20enviar,e%20criptografar%20conex%C3%B5es%20entre%20dispositivos." target="_blank">SSH</a></li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <span>&copy;Feito por Victor Ezaki</span>
+        <a href="https://www.linkedin.com/in/victor-ezaki/" target='blank'>
+            <i class="devicon-linkedin-plain colored"></i>
+        </a>
+        <a href="https://github.com/VictorEzaki/" target='blank'>
+            <i class="devicon-github-original colored"></i>
+        </a>
+
+    </footer>
+</body>
+
+</html>
